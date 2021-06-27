@@ -1,0 +1,25 @@
+@import 'colors';
+
+@mixin regular-input {
+    border-radius: 2px;
+    border: 1px solid $gray-10;
+    outline: none;
+    padding: 8px;
+}
+
+@mixin vertical-horizontal-center {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin basic-btn {
+    background: $accent-color;
+    border-radius: 4px;
+    border: none;
+    color: $white;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}

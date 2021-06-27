@@ -1,0 +1,31 @@
+@import 'src/styles/Shared';
+
+.loginHeader {
+    margin-bottom: 24px;
+}
+
+.mainText {
+	font-weight: 200;
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.secondaryText {
+	font-weight: 100;
+    color: $gray-70;
+    font-size: 14px;
+}
+
+.inputRow {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+
+.inputValue {
+	@include regular-input;
+}
+
+.submitButton {
+	@include basic-btn;
+}
