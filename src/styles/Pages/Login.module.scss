@@ -1,0 +1,16 @@
+@import 'src/styles/Shared';
+
+.loginContainer {
+  background: $light-bg;
+  height: 100vh;
+  position: relative;
+}
+
+.loginModal {
+  @include vertical-horizontal-center;
+
+  background: $white;
+  border-radius: 8px;
+  padding: 22px;
+  width: 400px;
+}
